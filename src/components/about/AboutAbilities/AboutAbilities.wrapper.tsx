@@ -6,6 +6,7 @@ const AboutAbilitiesWrappper = styled.section`
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     align-self: center;
+    gap: 1.5em;
   }
 
   & .image-wrapper {
