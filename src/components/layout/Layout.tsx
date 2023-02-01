@@ -8,6 +8,7 @@ import Contact from "./Contact/Contact";
 import MobileNav from "./MobileNav/MobileNav";
 import Link from "next/link";
 import { BiChevronsLeft } from "react-icons/bi";
+import { Analytics } from "@vercel/analytics/react";
 
 interface IProps {
   children: React.ReactNode;
@@ -46,6 +47,7 @@ const Layout: FC<IProps> = ({ children }) => {
           Back to portfolio
         </Link>
       )}
+      <Analytics />
     </LayoutWrapper>
   );
 };
