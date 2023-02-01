@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const SingleProjectItemWrapper = styled.article`
   justify-content: center;
-  margin-block: 4rem;
+
   &:nth-child(1) {
     margin: 0;
     margin-bottom: 3rem;

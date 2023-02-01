@@ -21,7 +21,7 @@ const LayoutWrapper = styled.div`
   & .sidebar {
     grid-area: sidebar;
     --gap: clamp(0.5em, 1em, 2em);
-
+    background-color: hsl(var(--clr-primary));
     & hr {
       border-color: hsl(var(--clr-secondary), 0.5);
       color: hsl(var(--clr-secondary), 0.5);
@@ -34,6 +34,7 @@ const LayoutWrapper = styled.div`
     align-self: center;
     justify-content: center;
     overflow-y: scroll;
+    background-color: hsl(var(--clr-primary));
   }
   & .skills {
     align-self: end;
@@ -104,7 +105,7 @@ const LayoutWrapper = styled.div`
     &.home {
       grid-template-areas:
         ". mobile-nav mobile-nav . . "
-        ". main main main  main"
+        ". main main main  ."
         ". skills skills skills .";
     }
     & .sidebar {

@@ -12,7 +12,7 @@ const categories = Array.from(new Set(projects.map((item) => item.category)));
 const ProjectsBar: FC<IProps> = ({ categorySelected, onChange }) => {
   return (
     <ProjectsBarWrapper>
-      <ul className="flex fs-600">
+      <ul className="flex fs-500">
         {categories.map((category) => (
           <li
             key={category}

@@ -186,7 +186,6 @@ body {
 
 .about-page {
   padding: 2rem;
-  gap: 7rem;
   line-height: 1.7;
 
   border-right: 1px solid hsla(var(--clr-secondary), 0.7);

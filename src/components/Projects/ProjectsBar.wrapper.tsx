@@ -3,8 +3,8 @@ import styled from "styled-components";
 const ProjectsBarWrapper = styled.nav`
   margin-bottom: 5rem;
   & ul {
+    /* --gap: 5rem; */
     justify-content: center;
-    --gap: 5rem;
 
     & li {
       & button {
@@ -24,6 +24,12 @@ const ProjectsBarWrapper = styled.nav`
           text-shadow: 0px 2px 8px hsla(var(--clr-gray), 1);
         }
       }
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    & ul {
+      justify-content: space-evenly;
     }
   }
 `;
