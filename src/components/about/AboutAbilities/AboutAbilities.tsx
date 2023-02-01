@@ -16,9 +16,10 @@ const AboutAbilities = () => {
           Nice to meet you
         </h2>
         <p className="fs-600">
-          {`I'm on my entry point steps in the web development world. I'm a
-          self-taught that have an experience in doing a lot of real world
-          projects.`}
+          {`A self-taught junior web developer self-taught, want to make my
+first steps into software development.
+I’m very passionate about software and web design.I don’t stop
+learning and exploring the latest technologies.`}
         </p>
       </div>
 
