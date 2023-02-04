@@ -9,12 +9,6 @@ const AboutPage = () => {
     <>
       <Head>
         <title>RonRock | About Me</title>
-        <meta
-          name="description"
-          content="Ron Rock front end, full-stack, back end developer. create bt Ron Rockah 2023"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/assets/images/Crop@Shadow2@2x.png" />
       </Head>
 
       <main>
