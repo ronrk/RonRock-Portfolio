@@ -205,7 +205,7 @@ export const projects: IProject[] = [
     repository:
       "https://github.com/ronrk/frontendmentor.io/tree/main/24-officite-coming-soon",
     image: "/assets/projects/officelite.png",
-    featured: true,
+    // featured: true,
     description: `Example of landing page. With opening soon counter.`,
     technologies: [Tech.VITE, Tech.REACT, Tech.STYLED],
   },
@@ -221,7 +221,7 @@ export const projects: IProject[] = [
 
     category: Category.WEB_APP,
     path: "/pass-generator",
-    featured: true,
+    // featured: true,
   },
   {
     title: "TODO App",
@@ -256,15 +256,15 @@ export const projects: IProject[] = [
     path: "/tip",
   },
   {
-    title: "Product Page",
+    title: "Audiophile Ecommerce",
     description:
-      "Product page example, user can: Open a lightbox gallery by clicking on the large product image Switch the large product image by clicking on the small thumbnail images Add items to the cartView the cart and remove items from it",
+      "Audiophile Ecommerce page, user can View products, add products to cart and complete checkout form",
     repository:
-      "https://github.com/ronrk/frontendmentor.io/tree/main/18-ecommerce-product-page",
-    liveLink: "https://capable-profiterole-8c7a7c.netlify.app/",
-    technologies: [Tech.REACT, Tech.STYLED, Tech.SCSS],
-    image: "/assets/projects/product-page.png",
-
+      "https://github.com/ronrk/frontendmentor.io/tree/main/25-audiophile-ecommerce",
+    liveLink: "https://audiophile-ecommerce-iota.vercel.app/",
+    technologies: [Tech.NEXT, Tech.REACT, Tech.STYLED, Tech.SCSS],
+    image: "/assets/projects/audiophile.png",
+    featured: true,
     category: Category.WEBSITE,
     path: "/product-page",
   },
