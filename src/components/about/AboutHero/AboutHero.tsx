@@ -30,8 +30,7 @@ const AboutHero = () => {
           the latest technologies. I gained experience with the help of
           practical projects. In my studying journey, I built a lot of
           real-world projects, from Figma or XD design to a real app that runs
-          on all browsers. A passionate Full Stack Software Developer having a
-          strong skills in Frontend skills.
+          on all browsers.
         </p>
       </div>
     </AboutHeroWrapper>
