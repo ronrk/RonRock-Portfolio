@@ -8,12 +8,15 @@ const LayoutWrapper = styled.div`
   display: grid;
   grid-template-columns:
     minmax(min-content, 3vw) min-content 1fr
-    minmax(5rem, min-content) minmax(0, 1vw);
+    minmax(min-content, 3vw);
+  gap: 1rem;
 
   &.home {
-    grid-template-areas: ". sidebar main skills  skills";
+    grid-template-areas:
+      ". sidebar main  ."
+      ". sidebar skills  .";
   }
-  grid-template-areas: ". sidebar main . .";
+  grid-template-areas: ". sidebar main .";
 
   column-gap: clamp(1rem, 1vw, 4rem);
   justify-content: space-evenly;

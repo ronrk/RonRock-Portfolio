@@ -48,7 +48,7 @@ const AboutTechnologies = () => {
         >
           {technologiesList.map((tech, idx) => (
             <div key={idx} className="tecnologiesSlider__box flex-col">
-              <h4 className="text-secondary fs-600">{tech.label}</h4>
+              <h4 className="text-secondary fs-500">{tech.label}</h4>
               <tech.icon />
             </div>
           ))}

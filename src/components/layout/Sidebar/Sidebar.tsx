@@ -25,7 +25,7 @@ const Appbar = () => {
 
         <div className="my-info">
           <p className="fs-400 fw-b">
-            Websites, Wesites design, Web Applications, Landing Pages
+            Websites, Websites design, Web Applications, Landing Pages
           </p>
         </div>
         <ul className="nav-list fs-600 uppercase fw-b">{linksEl}</ul>

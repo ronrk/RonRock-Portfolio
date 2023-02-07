@@ -8,6 +8,11 @@ const AboutHeroWrapper = styled.header`
       align-items: center;
       justify-content: center;
     }
+    & p {
+      text-align: center;
+      line-height: 1.8;
+      margin-block: 2rem;
+    }
   }
 
   & .image_wrapper {
@@ -22,7 +27,7 @@ const AboutHeroWrapper = styled.header`
         color: hsl(var(--clr-white));
       }
       & p {
-        color: hsl(var(--clr-gray));
+        /* color: hsl(var(--clr-gray)); */
       }
     }
   }

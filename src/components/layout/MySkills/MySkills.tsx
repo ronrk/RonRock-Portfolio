@@ -17,7 +17,7 @@ import MySkillsWrapper from "./MySkills.wrapper";
 
 const MySkills = () => {
   return (
-    <section className="skills flex-col">
+    <section className="skills">
       <h2 className="section-title text-white fs-500">My Skills</h2>
       <MySkillsWrapper>
         <IconCss />

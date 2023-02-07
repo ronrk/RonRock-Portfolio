@@ -14,7 +14,7 @@ const AboutAbilitiesWrappper = styled.section`
     position: relative;
     max-width: 60%;
     width: 500px;
-    aspect-ratio: 1;
+    aspect-ratio: 1.5;
     background-color: hsla(var(--clr-secondary), 0.4);
     border-radius: 55px;
     overflow: hidden;

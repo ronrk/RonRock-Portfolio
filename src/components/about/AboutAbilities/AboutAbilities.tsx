@@ -15,12 +15,12 @@ const AboutAbilities = () => {
         <h2 className="section-title text-primary-light fs-700 mb-2">
           Nice to meet you
         </h2>
-        <p className="fs-600">
+        {/*         <p className="fs-600">
           {`A self-taught junior web developer self-taught, want to make my
 first steps into software development.
 I’m very passionate about software and web design.I don’t stop
 learning and exploring the latest technologies.`}
-        </p>
+        </p> */}
       </div>
 
       <div className="abilities">

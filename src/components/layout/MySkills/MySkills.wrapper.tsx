@@ -1,12 +1,15 @@
 import styled from "styled-components";
 
 const MySkillsWrapper = styled.div`
-  max-width: 11vw;
-
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min-content, 2rem));
-  gap: 1em;
+  margin-top: 1rem;
   justify-content: center;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  gap: 1.5em;
 
   & .icon {
     height: 2vw;

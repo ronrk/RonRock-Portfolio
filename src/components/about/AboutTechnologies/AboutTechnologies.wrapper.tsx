@@ -37,8 +37,8 @@ const AboutTechnologiesWrapper = styled.section`
 
       & .icon {
         min-width: 50px;
-        width: 50%;
-        mix-blend-mode: overlay;
+        width: 30%;
+        /* mix-blend-mode: overlay; */
       }
     }
   }
