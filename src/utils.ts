@@ -116,7 +116,7 @@ export const projects: IProject[] = [
   {
     title: "Kanban Task Manager",
     description:
-      "Kanban task manager, fullstack application built with Next.JS. the app integrated with MongoDB database with Mongoose ODM.The authenticated user able to make CRUD operations to boards, columns, tasks and subtasks.",
+      "Kanban Task Manager, fullstack application built with Next.JS. the app integrated with MongoDB database with Mongoose ODM.The authenticated user able to make CRUD operations to boards, columns, tasks and subtasks.",
     repository: "https://github.com/ronrk/0000-kanban-task-manager",
     liveLink: "https://0000-kanban-task-manager.vercel.app/",
     technologies: [
