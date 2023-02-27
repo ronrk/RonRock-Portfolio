@@ -78,14 +78,15 @@ export const Abilities = [
     icon: "/assets/images/front-end.png",
     title: "Frontend Developer",
     description:
-      "I like code projects from scratch to end. and enjoy bringing awesome designs to your browser on yout mobile and desktop.",
+      "I can solve problems with my code skills. Taking projects from scratch to live websites, and enjoy bringing awesome designs to your browser on your mobile and desktop.",
     contentTitle: "Languages i speak",
     contentList: ["HTML", "CSS", "JavaScript"],
   },
   {
     icon: "/assets/images/back-end.png",
     title: "Backend Developer",
-    description: "I love to bring applications to end with making the server.",
+    description:
+      "I love to devlop applications from back to front. Build the `Client` with React and `Server` with Node.Js.",
     contentTitle: "Languages i speak",
     contentList: ["NodeJs"],
   },
@@ -93,7 +94,7 @@ export const Abilities = [
     title: "Designer",
     icon: "/assets/images/web-design.png",
     description:
-      "I make clean design patterns that look great in all devices. With tha lataset trends and interactions",
+      "I make clean design patterns that look great in all devices. With tha lataset trends and interactions.",
     contentTitle: "Design Tools",
     contentList: ["Figma", "Photoshop"],
   },
@@ -112,6 +113,26 @@ export interface IProject {
 }
 
 export const projects: IProject[] = [
+  {
+    title: "Kanban Task Manager",
+    description:
+      "Kanban task manager, fullstack application built with Next.JS. the app integrated with MongoDB database with Mongoose ODM.The authenticated user able to make CRUD operations to boards, columns, tasks and subtasks.",
+    repository: "https://github.com/ronrk/0000-kanban-task-manager",
+    liveLink: "https://0000-kanban-task-manager.vercel.app/",
+    technologies: [
+      Tech.NEXT,
+      Tech.REACT,
+      Tech.MONGO,
+      Tech.NODE,
+      Tech.TS,
+      Tech.STYLED,
+      Tech.SCSS,
+    ],
+    image: "/assets/projects/kanban.png",
+    featured: true,
+    category: Category.WEB_APP,
+    path: "/kanban",
+  },
   {
     title: "Planets Facts",
     path: "/planets-facts",
@@ -264,10 +285,11 @@ export const projects: IProject[] = [
     liveLink: "https://audiophile-ecommerce-iota.vercel.app/",
     technologies: [Tech.NEXT, Tech.REACT, Tech.STYLED, Tech.SCSS],
     image: "/assets/projects/audiophile.png",
-    featured: true,
+    featured: false,
     category: Category.WEBSITE,
-    path: "/product-page",
+    path: "/audiophille",
   },
+
   {
     title: "Podcast page",
     description: "Podcast landing page",
